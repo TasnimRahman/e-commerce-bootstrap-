@@ -1,0 +1,178 @@
+.s-wrap, .slide {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+   
+ 
+  .s-wrap {
+    background: black;
+    border: 1px solid white;
+    overflow: hidden; 
+  }
+   
+  .s-move {
+    position: relative;
+    bottom: 0%;
+  }
+   
+  
+  .slide { padding: 10px;
+    font-size: 16px;
+    color: white; }
+  
+  
+  @keyframes slide {
+    
+    0% { bottom: 0; }
+    15% { bottom: 0; }
+    20% { bottom: 100%; }
+    35% { bottom: 100%; }
+    40% { bottom: 200%; }
+    55% { bottom: 200%; }
+    60% { bottom: 300%; }
+    75% { bottom: 300%; }
+    80% { bottom: 400%; }
+    95% { bottom: 400%; }
+    100% { bottom: 0; }
+  }
+  .s-move { animation: slide linear 10s infinite; }
+  .s-move:hover { animation-play-state: paused; }
+
+
+.container{
+    height: 90px;
+    width: auto;
+}
+  .col a{
+      text-decoration: none;
+      color: black;
+      float: left;
+      text-align: center;
+      margin-left: 20px;
+  }
+
+
+  .col a:hover{
+      font-size: 19px;
+      color: brown;
+      transition: .5s ease-in-out;
+  }
+
+.navbar-brand h4{
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    font-size: 60px;
+}
+.nav-item{
+    padding: 20px;
+}
+.wrap{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.wrap video{
+    width: 100%;
+    height: 500px;
+    margin-top: 155px;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero{
+    position: relative;
+}
+.wrap .hero p{
+    width: 55%;
+    font-size: 1.3rem;
+    letter-spacing: 0.2px;
+    padding-bottom: 1.1rem;
+}
+.wrap .hero a{
+    background: #eef1f1;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+.wrap .hero a:hover{
+    background: rgb(135, 135, 156);
+    color: white;
+}
+.card-text a{
+    text-decoration: none;
+    color: black;
+
+}
+.card-text a:hover{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(4, 4, 37);
+    border-radius: 5px;
+    padding: 5px;
+}
+.product h2{
+    margin-left: 210px;
+    margin-bottom: 30px;
+}
+.checked{
+    color: tomato;
+}
+.message{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(1, 1, 32);
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+.message hr{
+    width: 100px;
+    border: 1px solid white;
+    margin-left: 510px;
+}
+.message input[type="button"]{
+    background-color: rgb(1, 1, 32);
+    border: 3px solid white;
+    color: white;
+}
+.design{
+    margin-top: 80px;
+}
+.product{
+    margin-left: 200px;
+}
+.main-cards h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.container-footer{
+    margin-top: 50px;
+    height: 300px;
+}
+.footer{
+    margin-left: 5px;
+}
+.copyright{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+.copyright, .row{
+    width: 100%;
+}
+
+
